@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="codigo-binario.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Contact</title>
+    <script>
+        var correo=function(){
+            document.getElementById('nombre_form').value="";
+            document.getElementById('correo_form').value="";
+            document.getElementById('numero_form').value="";
+            document.getElementById('razon_form').value="";
+        }
+    </script>
+</head>
+<body>
+    <div class="barrasup">
+        <a href="index.html"><div class="opciones"><i class="fas fa-home"></i></div></a>
+        <a href="proyects.html"><div class="opciones"><i class="fas fa-code"> Proyectos</i></div></a>
+        <a href="contact.html"><div class="opciones"><i class="fas fa-comment-dots"> Contacto</i></div></a>
+        <a href="colab.html"><div class="opciones"><i class="fas fa-handshake"> Colaboraciones</i></div></a>
+        <div class="opciones social_network"><i class="fas fa-users"> Redes Sociales</i>
+            <div class="container">
+                <div class="redes_sociales">Instagram</div>
+                <div class="redes_sociales">Twitter</div>
+                <div class="redes_sociales">Facebook</div>
+            </div>
+        </div>
+        <a href="https://github.com/AsierAlaminos"><div class="opciones github"><i class="fab fa-github"> GitHub</i></div></a>
+    </div>
+    <div class="contacto_formulario">
+        <form class="container_form">
+            <p>
+                <label class="texto_form nombre_form espacio_top">Nombre: </label>
+                <input class="input_form espacio_top" type="text" id="nombre_form" required="obligatorio" placeholder="Escribe tu nombre...">
+            </p>
+            <p>
+                <label class="texto_form">Correo electrónico: </label>
+                <input class="input_form" type="text" id="correo_form" required="obligatorio" placeholder="Escribe tu correo electrónico...">
+            </p>
+            <p>
+                <label class="texto_form numerotel_form">Número de teléfono: </label>
+                <input class="input_form" type="text" id="numero_form" required="obligatorio" placeholder="Escribe tu número de teléfono...">
+            </p>
+            <p>
+                <label class="texto_form razon_formu">Razón: </label>
+                <input class="input_form razon_input" type="text" id="razon_form" placeholder="Escribe la razón de contacto...">
+            </p>
+        </form>
+    </div>
+    <button class="enviar" onclick="correo()">Enviar</button>
+</body>
+</html>

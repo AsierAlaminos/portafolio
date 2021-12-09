@@ -1,0 +1,265 @@
+body{
+    background-color: #001933;
+}
+
+.barrasup{
+    width: 100%;
+    height: 12%;
+    background-color: #fbb829;
+    position:fixed;
+    margin-top: -8px;
+    margin-left: -8px;
+    float: left;
+}
+
+.opciones{
+    font-weight: bolder;
+    font-size: 15pt;
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+}
+
+.texto_div{
+    float: left;
+    height:unset;
+    margin-top: 14%;
+    margin-left: 23%;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px 0px rgb(0, 0, 0), 0px 0px 0px 0 rgba(0, 0, 0, 0.479);
+}
+
+h5, h1{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #013e54;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h5{
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #013e54;
+}
+
+.colabs{
+    float: left;
+    background-color: #136055;
+    margin-top: 40%;
+    margin-left: -44%;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 20px 20px 0px rgb(0, 0, 0), 0px 0px 0px 0 rgba(0, 0, 0, 0.479);
+}
+
+.social_network{
+    position: relative;
+}
+
+.social_network:hover .redes_sociales{
+    width: 160.6px;
+    height: 20px;
+    background-color: #fbb829;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.redes_sociales{
+    width: 0px;
+    height: 0px;
+    font-size: 0px;
+    position:relative;
+    color: black;
+    background-color: #fbb829;
+}
+
+.social_network:hover .container{
+    background-color: #fbb829;
+    border-top-color: transparent;
+    box-shadow: 6px 6px 5px;
+}
+
+.container{
+    background-color: #fbb829;
+}
+
+.calculadora_py, .ahorcado_python, .ppt_python, .tic_tac_toe_python, .calculadora_htmljs{
+    top: 160px;
+    margin-left: 70px;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    background-color: #136055;
+    border-radius: 15%;
+}
+
+.ahorcado_python{
+    margin-left: 300px;
+}
+
+.ppt_python{
+    margin-left: 530px;
+}
+
+.tic_tac_toe_python{
+    margin-left: 760px;
+}
+
+.calculadora_htmljs{
+    margin-left: 990px;
+}
+
+.boton_burbuja{
+    background-color: #136055;
+    border: 0px;
+    right: 7px;
+    bottom: 10px;
+    position: absolute;
+    border-radius: 15%;
+}
+
+
+.boton_burbuja:hover{
+    background-color: #104d43;
+}
+
+.burbuja{
+    background-color: #27a877;
+    height: 6px;
+    width: 6px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 1px;
+}
+
+.texto_proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 18pt;
+    top: -16px;
+    left: 6px;
+    position: absolute;
+}
+
+.boton_code{
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    width: 105%;
+    height: 105%;
+    background-color: #a8a8a877;
+    border: 0px;
+    
+}
+
+.codigo{
+    top: -6%;
+    width: 50%;
+    height: 40%;
+    max-width: 50%;
+    max-height: 40%;
+    position: relative;
+    color: black;
+}
+
+.container_form{
+    top: 20%;
+    border: 2px solid #001933;
+}
+
+.contacto{
+    top: 80px;
+    position: absolute;
+}
+
+.texto_form{
+    font-size: 20pt;
+    font-weight: bolder;
+    color: rgb(145, 145, 145);
+    margin-top: 70px;
+    margin-left: 30%;
+    position: absolute;
+    float: left;
+}
+
+.nombre_form{
+    margin-left: 39%;
+}
+
+.numerotel_form{
+    margin-left: 29%;
+}
+
+.input_form{
+    max-width: 20%;
+    min-width: 20%;
+    max-height: 10%;
+    min-height: 10%;
+    margin-top: 75px;
+    margin-left: 48%;
+    background-color: rgba(189, 189, 189, 0.842);
+    border: 2px solid #136055;
+}
+
+.razon_formu{
+    margin-left: 40%;
+}
+
+.enviar{
+    padding: 1%;
+    width: 5%;
+    height: 7%;
+    background-color:#016386;
+    border: 2px solid black;
+    border-radius: 15%;
+    box-shadow: 4px 4px 4px;
+    position: absolute;
+    margin-top: 2%;
+    left: 45%;
+}
+
+.enviar:hover{
+    background-color: #01506d;
+    box-shadow: 0px 0px 0px;
+}
+
+.empresas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #136055;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 1%;
+    float: left;
+    width: 7%;
+    padding: 4%;
+    border: 2px solid #001933;
+    transition: padding 1s;
+}
+
+.empresas:hover{
+    padding: 5%;
+}
+
+.electroeco{
+    margin-left: 7%;
+}
+
+.electroecoimg{
+    width: auto;
+
+}
